@@ -9,7 +9,7 @@ export default function Share() {
           <div className="shareTop">
             <img
               className="shareProfileImg"
-              src="https://cdn.pixabay.com/photo/2021/08/03/12/34/sparrow-6519384_960_720.jpg"
+              src="assets/person/11.jpg"
               alt=""
             />
             <input placeholder="What's in your mind?" className="shareInput" />

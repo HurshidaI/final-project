@@ -1,6 +1,6 @@
-import React from "react"
-import "./Profile.css"
-import Feed from "../Components/feed/Feed"
+import React from 'react'
+import './Profile.css'
+import Feed from '../Components/feed/Feed'
 
 export default function Profile() {
   return (
@@ -11,17 +11,17 @@ export default function Profile() {
             <div className="profileCover">
               <img
                 className="profileCoverImg"
-                src="assets/post/3.jpeg"
+                src="assets/person/12.png"
                 alt=""
               />
               <img
                 className="profileUserImg"
-                src="assets/person/7.jpeg"
+                src="assets/person/11.jpg"
                 alt=""
               />
             </div>
             <div className="profileInfo">
-              <h4 className="profileInfoName">Yusuf</h4>
+              <h4 className="profileInfoName">Hurshida</h4>
               <span className="profileInfoDesc">Hello my friends!</span>
             </div>
           </div>

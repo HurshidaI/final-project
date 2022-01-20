@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from 'react'
 import styled from 'styled-components'
 import { useNavigate } from 'react-router-dom'
-import { BsFillPersonFill } from 'react-icons/bs'
+
 import { RiLockPasswordFill } from 'react-icons/ri'
+import { MdEmail } from 'react-icons/md'
 const Container = styled.div`
-background-image:'./assets/person/1.jpeg'
-  background-color: #563d2d;
+  background-image: url(' assets/person/12.png');
+  // background-color: #563d2d;
   background-size: cover;
   background-repeat: no-repeat;
   width: 100vw;
@@ -49,6 +50,7 @@ const InputContainer = styled.div`
   margin: 1rem 0;
   background-color: whitesmoke;
   display: flex;
+  align-items: center;
   width: 80%;
   height: 40px;
 `
@@ -87,7 +89,7 @@ const Button = styled.button`
   border: none;
   text-align: center;
   color: white;
-  padding: 7px;
+
   padding: 0 10px;
   margin-top: 8px;
   font-size: 16px;
@@ -139,7 +141,7 @@ export default function Login() {
 
   useEffect(() => {
     if (loginUser && loginUser.name) {
-      window.alert('Wolcomne')
+      window.alert('Welcome')
       navigate('/')
     }
   }, [loginUser, navigate, loginSuccess])
@@ -149,7 +151,7 @@ export default function Login() {
       <FormContainer>
         <Form onSubmit={submitHanlder}>
           <InputContainer>
-            <BsFillPersonFill />
+            <MdEmail />
             <Input
               placeholder="email"
               type="email"

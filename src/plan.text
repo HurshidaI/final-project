@@ -1,0 +1,36 @@
+project plan
+project name:social-media app
+short description of project:
+techinal requirements includes :
+1. user should be able to create an account.(done)
+2.a user should be able to log in to the app.(done)
+3.user should be able to share pictures in the app.
+4.share picture can be liked by other users.(done)
+5.a user should be able to create a bio with short information about them.
+
+
+describe your part, what you created in the project.
+I created this project myself.in this project, a user can create an account, and login to the app with that account.
+i used basic validation logic in the registration part. no matter how many account i create, 
+the information(name,email,password) will be automatically stored in local storage.
+In my app, 
+there is a nawbar .when my application started, it should be able to open register page first,
+and after registering then it should go to the login then the homepage. but i dont fully understand the logic here
+,it goes to another page when i click the navbar.
+there are like button and dislike button on the homepage ,when like button clicked
+ like counter will be increased and when dislike clicked the count will be decreased.
+
+
+
+describe how you planned the project
+firstly, I created navbar using router and then login page and register page.then I created homepage.
+
+what was the biggest challenge of the project
+upload an image and share it , an create a user bio. i was only able to create complete
+ upload image and share it, but others i cant finish successfully.
+
+what do i need to learn or research?
+I need to learn about how to use data dynamically and how to use react hook.I dont fully understand the useeffect hook successfully.
+my goal is to finish the parts which i cant completed right now.
+
+so i think I need to learn more on this specific part.
